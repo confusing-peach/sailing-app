@@ -99,7 +99,7 @@ def get_forecast_inputs():
         long = st.number_input("Enter longitude", step = 0.0001)
         #NEW
         st.divider()
-        st.subheader("Select a windspeed limmits")
+        st.subheader("Enter windspeed limits")
         minwind = st.number_input("Enter minimum windspeed in mph", step = 1, min_value= 0)
         maxwind = st.number_input("Enter maxmimum windspeed in mph", step = 1, min_value = 0)
         #NEW
