@@ -1,5 +1,2 @@
-math
-streamlit
 requests
-pandas
 sympy
